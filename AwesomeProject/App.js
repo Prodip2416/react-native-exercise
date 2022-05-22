@@ -3,6 +3,10 @@ import { StyleSheet, Text, View, ScrollView } from "react-native";
 import { SafeAreaView } from "react-native";
 import ActivityIndicator from "./Components/ActivityIndicators";
 import FlatListComp from "./Components/FlatListComp";
+import Images from "./Components/Images";
+import Modals from "./Components/Modals";
+import Pressables from "./Components/Pressables";
+import RefreshControls from "./Components/RefreshControls";
 import Cat from "./Learning/Cat";
 import Flex from "./Learning/Flex";
 import HandlingTextInput from "./Learning/HandlingTextInput";
@@ -50,7 +54,11 @@ export default function App() {
         {/* <MainComponent/> */}
         {/* <Flex/> */}
         {/* <ActivityIndicator/> */}
-        <FlatListComp/>
+        {/* <FlatListComp/> */}
+        {/* <Images/> */}
+        {/* <Modals/> */}
+        {/* <Pressables/> */}
+        <RefreshControls/>
       </SafeAreaView>
   );
 }
